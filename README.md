@@ -35,7 +35,7 @@ cd mmdet3-D3Q
 
 conda create --name d3q python=3.8 -y
 conda activate d3q
-conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -U openmim
 mim install mmengine
 mim install "mmcv==2.1.0"
